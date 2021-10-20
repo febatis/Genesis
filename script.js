@@ -31,7 +31,7 @@ let lightColor = (element, number) => {
     number = number * 500;
     setTimeout(() => {
         element.classList.add('selected');
-    }, tempo - 250);
+    }, number - 250);
     setTimeout(() => {
         element.classList.remove('selected');
     });
@@ -57,7 +57,7 @@ let click = (color) => {
     clickedOrder[clickedOrder.length] = color;
     createColorElement(color).classList.add('selected');
 
-    console.log(color); //Debugger
+    console.log(color);
 
     setTimeout(() => {
         createColorElement(color).classList.remove('selected');
@@ -101,15 +101,16 @@ let gameOver = () => {
 
 //funcao iniciar jogo
 let playGame = () => {
-    score = 0;
     alert('Bem vindo ao Gênesis! Iniciando novo jogo!');
+    score = 0;
     
     nextLevel();
 }
 
-// blue.addEventListener('click', click(0));
-// green.addEventListener('click', click(1));
-// red.addEventListener('click', click(2));
-// yellow.addEventListener('click', click(3));
+//eventos de cliques para as cores
+blue.onclick = () => click(0);
+green.onclick = () => click(1);
+red.onclick = () => click(2);
+yellow.onclick = () => click(3);
 
 playGame();
