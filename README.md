@@ -6,6 +6,6 @@
 
 <p align='center'>
     <a href="https://febatis.github.io/Genesis/"/>
-    <img src="C:\Users\Thermaltake\Desktop\Workspace\genius\genesis.png" alt="Jogo gênesis" style="zoom:67%;"/>
+    <img src="https://github.com/febatis/Genesis/blob/main/genesis.png" alt="Jogo gênesis" style="zoom:67%;"/>
 </p>
 
