@@ -24,28 +24,32 @@ body {
 
 .blue {
     grid-area: azul;
-    background-color: hsl(240, 80%, 50%);
+    background-color: hsl(240, 70%, 50%);
     border-top-left-radius: 100%;
+    opacity: 0.7;
 }
 
 .green {
     grid-area: verde;
-    background-color: hsl(120, 80%, 50%);
+    background-color: hsl(120, 70%, 50%);
     border-top-right-radius: 100%;
+    opacity: 0.7;
 }
 
 .red {
     grid-area: vermelho;
-    background-color: hsl(0, 80%, 50%);
+    background-color: hsl(0, 70%, 50%);
     border-bottom-left-radius: 100%;
+    opacity: 0.7;
 }
 
 .yellow {
     grid-area: amarelo;
-    background-color: hsl(60, 80%, 50%);
+    background-color: hsl(60, 70%, 50%);
     border-bottom-right-radius: 100%;
+    opacity: 0.7;
 }
 
 .selected {
-    opacity: 0.4;
+    opacity: 1;
 }
