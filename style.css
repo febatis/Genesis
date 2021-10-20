@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background-color: rgb(196, 223, 247);
+}
+
+.main-game {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genius {
+    display: grid;
+    grid-template-areas: 'blue green' 'red yellow';
+    grid-gap: 10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+}
